@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form >
+        <h1> Validacion</h1>
+        
+        <input type="text" required minlength="7" maxlength="14">
+
+        <input type="number" required max="20" min="10">
+
+        <input type="submit"  value="Enviar">
+        
+            </form>
+
+
+    <h1>FORMULARIO</h1>
+    <form >
+<fieldset>
+    <legend> FORMULARIO </legend>
+    
+    <div>
+        <label for="nombre">Nombre: </label>
+        <!---Campo de texto--> 
+        <input type="text"  name="nombre" id="nombre" placeholder="Nombre....">
+        
+    </div>
+
+    <div>
+        <label for="area">Descripcion: </label>
+        <textarea name="area" id="area" cols="15" rows="5"></textarea>
+
+    </div>
+
+    <div>
+<label for="email">Email: </label>       
+<input type="email" name="" id="email">
+
+    </div>
+
+    <div>
+       Radio :
+       <input type="radio" name="genero" value="hombre">
+       <label>Hombre: </label>
+       <input type="radio" name="genero" value="radio">
+       <label>Mujer: </label>
+
+    </div>
+
+    <div>
+ Select :
+ <select >
+<option  value="hombre"> Hombre</option>
+<option value="mujer" > Mujer</option>
+<option value="otro" > Otro</option>
+ </select>
+    </div>
+
+
+    <div>
+Checkbox :
+
+<label >
+
+<input type="checkbox" /> Mayor de edad
+
+</label>
+<label >
+
+<input type="checkbox" /> Menor de edad
+
+</label>
+
+    </div>
+
+
+    <div>
+Ficheros :
+<input type="file" />
+
+
+    </div>
+    <div>
+Busqueda :
+<input type="search" name="buscar"/>
+<button>Buscar</button>
+
+    </div>
+
+Telefono : 
+    <input type="tel" name="telefono" />
+    <button>Buscar</button>
+</fieldset>
+
+<div>
+Sitio web :
+<input type="url" name="url" />
+
+
+</div>
+<button>Enviar</button>
+<input type="reset" value="Limpiar Formulario"/>
+
+    </form>
+
+
+
+</body>
+</html>
